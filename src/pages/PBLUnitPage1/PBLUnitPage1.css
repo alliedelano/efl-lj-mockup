@@ -1,0 +1,52 @@
+.page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.unit-list {
+    width: 20vw;
+}
+
+.course-content {
+    width: 80vw;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.unit-header {
+    text-align: left;
+    margin-left: 25px
+}
+
+.unit-video-intro {
+    width: 60vw;
+    height: 50vh;
+    background-color: lightgray;
+}
+
+.resources-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.related-resources {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 7px;
+}
+
+.resource-item {
+    height: auto;
+    width: 200px;
+    border: 1px solid lightgray;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column; 
+}
+

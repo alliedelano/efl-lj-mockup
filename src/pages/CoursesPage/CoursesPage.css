@@ -1,0 +1,49 @@
+.courses-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    background-color: lightgrey
+}
+
+.courses-header-left {
+    width: 40vw;
+}
+
+.courses-header-right {
+    width: 60vw;
+}
+
+.course-filter-tag {
+    width: 100px;
+    height: 20px;
+    background-color: darkgray;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 25%;
+}
+
+.filter-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%
+}
+
+.square-course {
+    height: auto;
+    width: 250px;
+    border: 2px solid lightgray;
+    align-self: center;
+    margin: 7px;
+}
+
+.all-courses {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}

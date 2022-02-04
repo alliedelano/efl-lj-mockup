@@ -1,0 +1,57 @@
+.header-bars {
+    display: flex;
+    flex-direction: column
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar-greeting {
+    height: 30px;
+    width: 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    background-color: lightgray;
+    align-self: center;
+}
+
+.gray-bar {
+    background-color: lightgray;
+    width: 100%;
+    height: 30px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: #152943;
+    padding-left: 10px;
+}
+
+.navigation * {
+    padding-right: 30px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+

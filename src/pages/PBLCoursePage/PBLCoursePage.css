@@ -1,0 +1,35 @@
+.course-header {
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.course-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.course-left {
+    width: 70vw;
+    justify-self: left;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    text-align: left;
+}
+
+.course-right {
+    width: 20vw;
+    text-align: center;
+    padding-right: 2vw;
+}
+
+.course-video {
+    width: 40vw;
+    height: 40vh;
+    background-color: lightgray
+}
+
+.resource-thumbnail {
+    width:50%;
+    justify-self: center;
+}
