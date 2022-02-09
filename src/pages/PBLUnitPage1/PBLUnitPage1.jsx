@@ -19,11 +19,15 @@ export default function PBLUnitPage1(){
                 </div>
                 <div className="course-content">
                     <h4>Authentic, high quality products. Rigorous assessment, tied to the curriculum and standards. Addressing a real-world problem or complex question. Students owned. Pedagogically grounded.</h4>
-                    <div className="unit-video-intro">INTRO VIDEO</div>
+                    <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dFE-OYRJsa8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <br />
                     <div>
-                        As a starting point it is useful to define PBL. It  is a teaching method in which “students gain knowledge and skills by working for an extended period to investigate and respond to an authentic, engaging, and complex question, problem, or challenge.” In practice this means  ”students work on a project over time – from a week up to a term – that engages them in solving a real-world problem or answering a complex question (ref Source: Buck Institute for Education http://www.bie.org/about/what_pbl).
+                        As a starting point it is useful to define PBL. It is a teaching method in which “students gain knowledge and skills by working for an extended period to investigate and respond to an authentic, engaging, and complex question, problem, or challenge.” In practice this means  ”students work on a project over time – from a week up to a term – that engages them in solving a real-world problem or answering a complex question (ref Source: Buck Institute for Education http://www.bie.org/about/what_pbl).
                     </div>
+                    <br />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PeF4_RrAmSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br />
                     <div>
                         Students demonstrate their knowledge and skills by developing a public product or presentation for a real audience. As a result, students develop deep content knowledge as well as critical thinking, creativity, and communication skills in the context of doing an authentic, meaningful project. PBL unleashes a contagious, creative energy among students and teachers.
@@ -49,7 +53,7 @@ export default function PBLUnitPage1(){
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
                                 <img className="resource-thumbnail" alt='pbl evidence' src={pbl_evidence}/>
-                                <a href="/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
+                                <a href="/resources/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">

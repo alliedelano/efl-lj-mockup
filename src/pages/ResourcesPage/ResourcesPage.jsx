@@ -43,7 +43,7 @@ export default function ResourcesPage(){
                         <div className="favourite">
                             <div className="fav-icon"></div>
                             <img className="resource-thumbnail" alt='pbl evidence' src={pbl_evidence}/>
-                                <a href="/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
+                                <a href="/resources/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
                                 <p>A short introduction about the resource or toolkit</p>
                         </div>
                         <div className="favourite">

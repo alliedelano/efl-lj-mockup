@@ -10,6 +10,9 @@ import PBLUnitPage4 from './pages/PBLUnitPage4/PBLUnitPage4';
 import PBLEvidenceResource from './pages/PBLEvidenceResource/PBLEvidenceResource';
 import ResourcesPage from './pages/ResourcesPage/ResourcesPage';
 import AnotherCoursePage from './pages/AnotherCoursePage/AnotherCoursePage';
+import XpProtocolsCoursePage from './pages/XpProtocolsCoursePage/XpProtocolsCoursePage';
+import PartnershipsCoursePage from './pages/PartnershipsCoursePage/PartnershipsCoursePage';
+import PartnershipsUnit1Page from './pages/PartnershipsUnit1Page/PartnershipsUnit1Page';
 
 function App() {
   return (
@@ -18,14 +21,17 @@ function App() {
         <Routes>
           <Route path="/" element={<DashboardPage/>} />
           <Route path="/courses" element={<CoursesPage/>} />
-          <Route path="/pblcourse" element={<PBLCoursePage/>} />
-          <Route path="/pblunit1" element={<PBLUnitPage1/>} />
-          <Route path="/pblunit2" element={<PBLUnitPage2/>} />
-          <Route path="/pblunit3" element={<PBLUnitPage3/>} />
-          <Route path="/pblunit4" element={<PBLUnitPage4/>} />
-          <Route path="/pbl-evidence-resource" element={<PBLEvidenceResource/>} />
+          <Route path="/courses/pblcourse" element={<PBLCoursePage/>} />
+          <Route path="/courses/pblcourse/pblunit1" element={<PBLUnitPage1/>} />
+          <Route path="/courses/pblcourse/pblunit2" element={<PBLUnitPage2/>} />
+          <Route path="/courses/pblcourse/pblunit3" element={<PBLUnitPage3/>} />
+          <Route path="/courses/pblcourse/pblunit4" element={<PBLUnitPage4/>} />
+          <Route path="/resources/pbl-evidence-resource" element={<PBLEvidenceResource/>} />
           <Route path="/resources" element={<ResourcesPage/>} />
-          <Route path="/anothercourse" element={<AnotherCoursePage/>} />
+          <Route path="/courses/anothercourse" element={<AnotherCoursePage/>} />
+          <Route path="/courses/xpprotocolscourse" element={<XpProtocolsCoursePage/>} />
+          <Route path="/courses/partnershipscourse" element={<PartnershipsCoursePage/>} />
+          <Route path="/courses/partnershipscourse/unit1" element={<PartnershipsUnit1Page/>} />
         </Routes>
       </BrowserRouter>
     </div>

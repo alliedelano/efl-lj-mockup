@@ -6,7 +6,7 @@ export default function Header(){
         <div className="header-bars">
             <div className="top-bar">
                 <div className="logo">
-                    EFL logo
+                    Edge logo <span className="span-logo">(verify)</span>
                 </div>
                 <div className="greeting">
                     <div className="avatar-greeting"></div>

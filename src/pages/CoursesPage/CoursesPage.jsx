@@ -41,27 +41,27 @@ export default function CoursesPage(){
             <div className="all-courses">
                         
                         <div className="square-course">
-                            <a href="/pblcourse"><h4>Steps in Project Based Learning</h4></a>
+                            <a href="/courses/pblcourse"><h4>Steps in Project Based Learning</h4></a>
+                            <p>A series of overviews of the different elements of Project Based Learning and Expeditionary Learning.</p>
+                        </div>
+                        <div className="square-course">
+                            <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
+                            <p>10 strategies to support expeditionary learning.</p>
+                        </div>
+                        <div className="square-course">
+                            <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
+                            <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
+                        </div>
+                        <div className="square-course">
+                            <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>
                             <p>A short introduction about the course.</p>
                         </div>
                         <div className="square-course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
+                            <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>
                             <p>A short introduction about the course.</p>
                         </div>
                         <div className="square-course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
-                        </div>
-                        <div className="square-course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
-                        </div>
-                        <div className="square-course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
-                        </div>
-                        <div className="square-course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
+                            <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>
                             <p>A short introduction about the course.</p>
                         </div>
                     </div>

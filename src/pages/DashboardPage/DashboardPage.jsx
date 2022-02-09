@@ -22,16 +22,16 @@ export default function DashboardPage(){
                     <div className="my-courses">
                         <h2>My courses</h2>
                         <div className="course">
-                            <a href="/pblcourse"><h4>Steps in Project Based Learning</h4></a>
+                            <a href="/courses/pblcourse"><h4>Steps in Project Based Learning</h4></a>
+                            <p>A series of overviews of the different elements of Project Based Learning and Expeditionary Learning.</p>
+                        </div>
+                        <div className="course">
+                            <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
                             <p>A short introduction about the course.</p>
                         </div>
                         <div className="course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
-                        </div>
-                        <div className="course">
-                            <a href="/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
+                            <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
+                            <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
                         </div>
                         <a href="/courses"><p>View more courses</p></a>
                     </div>
@@ -64,7 +64,7 @@ export default function DashboardPage(){
                         <div className="favourite">
                             <div className="fav-icon"></div>
                             <img className="resource-thumbnail" alt='pbl evidence' src={pbl_evidence}/>
-                                <a href="/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
+                                <a href="/resources/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
                                 <p>A short introduction about the resource or toolkit</p>
                         </div>
                         <div className="favourite">

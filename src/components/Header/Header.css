@@ -26,10 +26,14 @@
 }
 
 .logo {
-    height: 50px;
-    width: 150px;
+    height: 75px;
+    width: 200px;
     background-color: lightgray;
     align-self: center;
+}
+
+.span-logo {
+    color: red;
 }
 
 .gray-bar {
