@@ -47,14 +47,16 @@ export default function CoursesPage(){
                         <div className="square-course">
                             <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
                             <p>10 strategies to support expeditionary learning.</p>
+                            <span className="question"><p>toolkit instead?</p></span>
                         </div>
                         <div className="square-course">
                             <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
                             <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
                         </div>
                         <div className="square-course">
-                            <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
+                            <a href="/courses/pbl201course"><h4>Creating a Project Using PBL and EL Pedagogies (Live Course)</h4></a>
+                            <p>Companion content for live course.</p>
+                            <span className="question"><p>password protected?</p></span>
                         </div>
                         <div className="square-course">
                             <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>

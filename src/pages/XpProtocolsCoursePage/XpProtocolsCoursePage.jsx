@@ -11,7 +11,7 @@ export default function XpProtocolsCoursePage(){
             <Header />
             <div className="course-header">
                 <h1>XP: Expeditionary Learning Protocols</h1>
-                <span className="question"><h2>Perhaps a toolkit or resource instead?</h2></span>
+                <span className="question"><h2>Perhaps a toolkit, with each video as a resource?</h2></span>
             </div>
             <div className="course-overview">
                 <div className="course-left">
