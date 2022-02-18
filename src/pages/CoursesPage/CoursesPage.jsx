@@ -61,7 +61,6 @@ export default function CoursesPage(){
                         <div className="square-course">
                             <a href="/courses/ourtowncourse"><h4>Community Connected Learning For Social Impact</h4></a>
                             <p>A short introduction about the course.</p>
-                            <span className="question"><p>toolkit instead?</p></span>
                         </div>
                         <div className="square-course">
                             <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>

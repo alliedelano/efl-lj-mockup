@@ -20,7 +20,7 @@ export default function OurTownCoursePage(){
                         <br />
                         <div>This is organised into categories with which schools are likely to structure a community social impact project.</div>
                         <ul> 
-                            <li>Unit 1: Launch Events and Opening Sessions
+                            <li><h3>Unit 1: Launch Events and Opening Sessions</h3>
                                 <ul>
                                     <li><span className="bold">Social action case studies.</span> Explore stories of young changemakers in action to inspire your students with project ideas and role models.</li>
                                     <li><span className="bold">Project launch event.</span> Students understand what the project involves and feel empowered to make a difference in their community.</li>
@@ -28,35 +28,33 @@ export default function OurTownCoursePage(){
                                 </ul>
                             </li>
                             <br />
-                            <li>KEEP GOING
+                            <li><h3>Unit 2: Community Mapping and Developing Initial Ideas</h3>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span className="bold">Reflecting on community.</span> Students understand what makes up their community, what their community might need, and what their community cares about.</li>
+                                    <li><span className="bold">Developing ideas.</span> Students investigate potential issues to focus on, generating initial suggestions and shortlisting ideas.</li>
+                                    <li><span className="bold">Creating driving questions.</span> Students develop initial ideas for a driving question that they will answer through the course of the project.</li>
                                 </ul>
                             </li>
                             <br />
-                            <li>KEEP GOING
+                            <li><h3>Unit 3: Research and Engaging the Community</h3>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span className="bold">What is a stakeholder?</span> Students understand what a stakeholder is and identify the stakeholders and potential partners for the issues they are considering.</li>
+                                    <li><span className="bold">Engaging our community.</span> Students develop a plan on how to consult their community and relevant stakeholders. Students carry out interviews, questionnaires, or focus groups.</li>
+                                    <li><span className="bold">Reviewing community consultation and research.</span> Students review the data from their community consultations and plan any further research they may need.</li>
+                                    <li><span className="bold">Engaging experts, local organisations, or employers.</span> Project leads and students identify relevant experts or organisations, and plan how to approach them.</li>
                                 </ul>
                             </li>
                             <br />
-                            <li>KEEP GOING
+                            <li><h3>Unit 4: The Project</h3>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span className="bold">Project design.</span> Students identify the issue that is likely to yield the most social impact and refine the driving question that will frame their project. Students investigate the root causes of the issue they have identified and design effective solutions that address causes rather than symptoms.</li>
+                                    <li><span className="bold">Project critique discussion guide.</span> Project leads and students present on their project progress to members of the school and wider community, receiving feedback on how to develop their ideas further.</li>
                                 </ul>
                             </li>
                             <br />
-                            <li>KEEP GOING
+                            <li><h3>Unit 5: Student Submission and Reflection</h3>
                                 <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
+                                    <li><span className="bold">Student submission.</span> Students reflect on the project and choose how to present their learning and recommendations.</li>
                                 </ul>
                             </li>
                             

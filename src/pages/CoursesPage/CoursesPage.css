@@ -39,6 +39,10 @@
     margin: 7px;
 }
 
+.square-course h4 {
+    color: blue;
+}
+
 .all-courses {
     display:flex;
     flex-direction: row;
