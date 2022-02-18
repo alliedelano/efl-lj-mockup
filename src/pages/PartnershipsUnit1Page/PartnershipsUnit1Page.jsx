@@ -2,7 +2,7 @@ import React from 'react';
 import UnitListPartnerships from '../../components/UnitListPartnerships/UnitListPartnerships';
 import Header from '../../components/Header/Header';
 import FooterComp from '../../components/Footer/Footer';
-import pbl_evidence from '../../images/pbl_evidence.png'
+import fngl_pp from '../../images/fngl_pp.png'
 
 export default function PartnershipsUnit1Page(){
     return(
@@ -49,9 +49,61 @@ export default function PartnershipsUnit1Page(){
                     Tips to Building Partnerships’ which is a quick guide for
                     you and your team when building meaningful employer
                     partnerships.</p>
-                    
-                    <br />
-                    
+                    <p>The below diagram, from Ford Next Generation Learning, 
+                    shows the process you will need to follow to ensure you 
+                    build and retain powerful partnerships starting with 
+                    recruit and assess.</p>
+                    <img alt='powerful partnerships' src={fngl_pp}/>
+                    <h3>Who usually handles these types of assessments?</h3>
+                    <p>Assessing your readiness can be undertaken by
+                    any individual who will be responsible for employer
+                    engagement and outreach or any curriculum lead
+                    who intends to embed strong partnerships within their
+                    departments practice.</p>
+                    <p>In most cases it would be recommended that one
+                    individual assess the readiness across the school/
+                    college and with employers, this will generate more
+                    meaningful guidance, support consistency and give a
+                    complete picture.</p>
+                    <p>Readiness assessment is not meant to be a critical
+                    evaluation of any sort. It is, instead, an opportunity for
+                    those exploring employer engagement and powerful
+                    partnerships to understand what structures, resources,
+                    and support exist and what structures, resources,
+                    and support need to be in place in order to promote
+                    successful partnerships. By using the tools and reading
+                    the guidance documents you can start your readiness
+                    assessment (or exploration) in your school/college in the
+                    right way by reassuring colleagues that the information
+                    gathered will only be used to help them and the
+                    partnerships they enter into. The greatest benefit to be
+                    gained will be the positive impact on students’ school/
+                    college experience and the opportunities that arise for
+                    them from the partnerships.</p>
+                    <h3>Who normally gets assessed?</h3>
+                    <p>You will want to assess all stakeholders who are directly
+                    or indirectly involved in your partnerships.</p>
+                    <h3>Do I assess employers, partners and the school/college more than one time?</h3>
+                    <p>Yes! You will find both the need and the value in
+                    assessing certain stakeholders again in some form. For
+                    example, you may need to reassess and revisit when
+                    there is a change in personnel, an employer partnership
+                    leadership change, or there are structural changes in
+                    one of the organisations.</p>
+                    <h3>What do I do with the information gathered?</h3>
+                    <p>Documenting what you discover is important for all
+                    parties within the relationship. Your documentation is a
+                    communication tool that will help lay the groundwork
+                    with and for your outreach and partnerships. It is
+                    intended to help everyone build a shared understanding
+                    of expectations, areas for growth, and assets available
+                    for growing the partnership and engaging the students
+                    (and teachers) in different ways. You can use the
+                    ‘Observation Rubric Tools’ in the supporting documents
+                    to help you do this.</p>
+                    <h3 className="key-tip">KEY TIP: Remember! assessing readiness never really ends. It
+                    is an ongoing element of your employer engagement
+                    outreach and powerful partnerships to ensure success!</h3>
                     <div className="resources-section-container">
                         <h2>Related Resources</h2>
                         <div className="related-resources">
@@ -59,18 +111,7 @@ export default function PartnershipsUnit1Page(){
                                 <div className="fav-icon"></div>
                                 <h4>Powerful Partnerships - Unit 1: Assessing Readiness - Part 1: Overview</h4>
                                 <p>A short introduction about the resource or toolkit</p>
-                            </div>
-                            <div className="resource-item">
-                                <div className="fav-icon-not"></div>
-                                <h4>Powerful Partnerships - Unit 1: Assessing Readiness - Part 2: Schools</h4>
-                                <p>A short introduction about the resource or toolkit</p>
-                            </div>
-                            <div className="resource-item">
-                                <div className="fav-icon"></div>
-                                <h4>Powerful Partnerships - Unit 1: Assessing Readiness - Part 3: Employers</h4>
-                                <p>A short introduction about the resource or toolkit</p>
-                            </div>
-                            
+                            </div>        
                         </div>
                     </div>
                 </div>

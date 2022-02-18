@@ -32,3 +32,10 @@
     margin-top: 5px;
     border-radius: 25%;
 }
+
+.resource-thumbnail-placeholder {
+    width: 100px;
+    height: 140px;
+    background-color: #BF2885;
+    justify-self: center;
+}

@@ -20,19 +20,19 @@ export default function PartnershipsCoursePage(){
                         <br />
                         <div>This course includes the following:</div>
                         <ul> 
-                            <li>Unit 1: Assessing Readiness
+                            <li>Part 1: Assessing Readiness
                                 <ul>
-                                    <li>Part 1: Overview</li>
-                                    <li>Part 2: Schools</li>
-                                    <li>Part 3: Employers</li>
+                                    <li>Unit 1: Overview</li>
+                                    <li>Unit 2: Schools</li>
+                                    <li>Unit 3: Employers</li>
                                 </ul>
                             </li>
                             <br />
-                            <li>Unit 2: Outreach Strategy for Powerful Partnerships
+                            <li>Part 2: Outreach Strategy for Powerful Partnerships
                                 <ul>
-                                    <li>Part 1: Planning</li>
-                                    <li>Part 2: Execute</li>
-                                    <li>Part 3: Evaluation & Celebration</li>
+                                    <li>Unit 4: Planning</li>
+                                    <li>Unit 5: Execute</li>
+                                    <li>Unit 6: Evaluation & Celebration</li>
                                 </ul>
                             </li>
                             <br />

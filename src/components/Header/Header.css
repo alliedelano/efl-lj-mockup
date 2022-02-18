@@ -26,9 +26,8 @@
 }
 
 .logo {
-    height: 75px;
-    width: 200px;
-    background-color: lightgray;
+    height: 100px;
+    width: auto;
     align-self: center;
 }
 

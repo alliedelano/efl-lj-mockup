@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.css';
+import edge_logo from '../../images/edge_logo.png'
 
 export default function Header(){
     return(
         <div className="header-bars">
             <div className="top-bar">
                 <div className="logo">
-                    Edge logo <span className="span-logo">(verify)</span>
+                    <img alt='powerful partnerships' src={edge_logo}/>
                 </div>
                 <div className="greeting">
                     <div className="avatar-greeting"></div>
