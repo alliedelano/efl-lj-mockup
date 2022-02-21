@@ -18,6 +18,8 @@ import PartnershipsUnit3Page from './pages/PartnershipsUnit3Page/PartnershipsUni
 import PBL201CoursePage from './pages/PBL201CoursePage/PBL201CoursePage';
 import PBL201Session1Page from './pages/PBL201Session1Page/PBL201Session1Page';
 import OurTownCoursePage from './pages/OurTownCoursePage/OurTownCoursePage';
+import OurTownUnit1Page from './pages/OurTownUnit1Page/OurTownUnit1Page';
+import OurTownUnit2Page from './pages/OurTownUnit2Page/OurTownUnit2Page';
 
 function App() {
   return (
@@ -42,6 +44,9 @@ function App() {
           <Route path="/courses/pbl201course" element={<PBL201CoursePage/>} />
           <Route path="/courses/pbl201course/session1" element={<PBL201Session1Page/>} />
           <Route path="/courses/ourtowncourse" element={<OurTownCoursePage/>} />
+          <Route path="/courses/ourtowncourse/unit1" element={<OurTownUnit1Page/>} />
+          <Route path="/courses/ourtowncourse/unit2" element={<OurTownUnit2Page/>} />
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -50,6 +50,7 @@ export default function ResourcesPage(){
                             <div className="fav-icon"></div>
                             <img className="resource-thumbnail" alt='pbl evidence' src={pbl_evidence}/>
                                 <a href="/resources/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
+                                <span className="question">Title is clickable and will take you to an individual resource page.</span>
                                 <p>A short introduction about the resource or toolkit</p>
                         </div>
                         <div className="favourite">
@@ -115,9 +116,54 @@ export default function ResourcesPage(){
                             <p>Short description of resource.</p>
                             <div className="resource-filter-tag">RWL</div>
                         </div>
-                        
-                        
-                        
+                        <div className="resource-item">
+                            <div className="fav-icon"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Session Plan: Project Launch</h4>
+                            <p>A sample 45-minute session to launch a project with students.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon-not"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Case Studies & Changemaker Stories</h4>
+                            <p>Inspiring projects from young changemakers around the world.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Session Plan: Interests, Values, & Team Building</h4>
+                            <p>A sample 50-minute session through which students reflect on their interests and values, understand the strengths and skills they can all bring to the project, and collaboratively develop a charter to guide how they'll work together across the project.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Community Advocate Prompts</h4>
+                            <p>Prompts for young people who notice local or global problems and decide to become part of the solution. Prompts include people, places, planet, and new product/service/project.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Session Plan: Reflecting On Our Community</h4>
+                            <p>A sample 55-minute session through which students seek to develop a deeper understanding of their community.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon-not"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Session Plan: Developing Initial Ideas</h4>
+                            <p>A sample 50-minute session which prompts students to develop initial ideas for their project and groups develop vision statement(s) of what they'd like to achieve.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Session Plan: Creating Driving Questions</h4>
+                            <p>A sample 35-minute session that supports students to develop 2-3 possible driving questions to answer through the project.</p>
+                        </div>
+                        <div className="resource-item">
+                            <div className="fav-icon"></div>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Session Plan: What is a Stakeholder?</h4>
+                            <p>A sample 45-minute session through which students understand why community engagement is important for the project and what a stakeholder is.</p>
+                        </div>
                     </div>
                 </div>
             </div>
