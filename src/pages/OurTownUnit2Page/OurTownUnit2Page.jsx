@@ -38,21 +38,25 @@ export default function OurTownUnit2Page(){
                         <div className="related-resources">
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Session Plan: Reflecting On Our Community</h4>
                                 <p>A sample 55-minute session through which students seek to develop a deeper understanding of their community.</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Session Plan: Developing Initial Ideas</h4>
                                 <p>A sample 50-minute session which prompts students to develop initial ideas for their project and groups develop vision statement(s) of what they'd like to achieve.</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Session Plan: Creating Driving Questions</h4>
                                 <p>A sample 35-minute session that supports students to develop 2-3 possible driving questions to answer through the project.</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Session Plan: What is a Stakeholder?</h4>
                                 <p>A sample 45-minute session through which students understand why community engagement is important for the project and what a stakeholder is.</p>
                             </div>

@@ -38,21 +38,25 @@ export default function OurTownUnit1Page(){
                         <div className="related-resources">
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Session Plan: Project Launch</h4>
                                 <p>A sample 45-minute session to launch a project with students.</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Case Studies & Changemaker Stories</h4>
                                 <p>Inspiring projects from young changemakers around the world.</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Session Plan: Interests, Values, & Team Building</h4>
                                 <p>A sample 50-minute session through which students reflect on their interests and values, understand the strengths and skills they can all bring to the project, and collaboratively develop a charter to guide how they'll work together across the project.</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Community Advocate Prompts</h4>
                                 <p>Prompts for young people who notice local or global problems and decide to become part of the solution. Prompts include people, places, planet, and new product/service/project.</p>
                             </div>

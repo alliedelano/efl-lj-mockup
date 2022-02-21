@@ -109,6 +109,7 @@ export default function PartnershipsUnit1Page(){
                         <div className="related-resources">
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Powerful Partnerships - Unit 1: Assessing Readiness - Part 1: Overview</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>        

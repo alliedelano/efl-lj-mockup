@@ -3,6 +3,8 @@ import Header from '../../components/Header/Header'
 import FooterComp from '../../components/Footer/Footer';
 import './DashboardPage.css'
 import pbl_evidence from '../../images/pbl_evidence.png'
+import meeting_org_tool from '../../images/meeting_org_tool.png'
+
 
 
 export default function DashboardPage(){
@@ -64,23 +66,31 @@ export default function DashboardPage(){
                         <div className="favourite">
                             <div className="fav-icon"></div>
                             <img className="resource-thumbnail" alt='pbl evidence' src={pbl_evidence}/>
-                                <a href="/resources/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
-                                <p>A short introduction about the resource or toolkit</p>
+                            <a href="/resources/pbl-evidence-resource"><h4>Edge Evidence Base: PBL</h4></a>
+                            <span className="question">Title is clickable and will take you to an individual resource page.</span>
+                            <p>A short introduction about the resource or toolkit</p>
+                            <div className="resource-filter-tag">PBL</div>
                         </div>
                         <div className="favourite">
                             <div className="fav-icon"></div>
-                            <h4>Resource/toolkit name</h4>
-                            <p>A short introduction about the resource or toolkit</p>
+                            <img className="resource-thumbnail" alt='meeting organisational tool' src={meeting_org_tool}/>
+                            <h4>Meeting Organiser Tool</h4>
+                            <p>Capture insights, challenges, questions raised, and implications from meetings with schools and employers.</p>
+                            <div className="resource-filter-tag">RWL</div>
                         </div>
                         <div className="favourite">
                             <div className="fav-icon"></div>
-                            <h4>Resource/toolkit name</h4>
-                            <p>A short introduction about the resource or toolkit</p>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Project Example: Identifying the Hazards and Risks Based in a Health Care Setting Scenario</h4>
+                            <p>Students are involved in a role play with regard to the Care Quality Commission (CQC)</p>
+                            <div className="resource-filter-tag">KS5</div>
                         </div>
                         <div className="favourite">
                             <div className="fav-icon"></div>
-                            <h4>Resource/toolkit name</h4>
-                            <p>A short introduction about the resource or toolkit</p>
+                            <div className="resource-thumbnail-placeholder"></div>
+                            <h4>Partnerships - Observation Rubric: Schools</h4>
+                            <p>Short description of resource.</p>
+                            <div className="resource-filter-tag">RWL</div>
                         </div>
                     </div>
                     <a href="/resources"><p>View more resources</p></a>
