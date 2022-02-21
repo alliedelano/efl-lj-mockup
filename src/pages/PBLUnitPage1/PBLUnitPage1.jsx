@@ -42,11 +42,13 @@ export default function PBLUnitPage1(){
                         <div className="related-resources">
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Powerpoint: Intro to PBL and EL</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>What is PBL Overview</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
@@ -58,11 +60,13 @@ export default function PBLUnitPage1(){
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>PBL Toolkit</h4>
                                 <p>Includes Action Plans & Templates</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Project Design Overview & Calendar</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>

@@ -33,21 +33,25 @@ export default function PBLUnitPage4(){
                         <div className="related-resources">
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Powerpoint: Introduction to Community, Authenticity & Employers in PBL and EL</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Community & Employer Engagement PBL2</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>School & Employer Action Plan Template</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>School Checklist Working with Employers Template</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>

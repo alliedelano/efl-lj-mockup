@@ -44,31 +44,37 @@ export default function PBLUnitPage2(){
                         <div className="related-resources">
                         <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Powerpoint: Intro to Project Design & Assessment</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>EFL Assessment PBL Quick Guide 1</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Overview Assessment in PBL</h4>
                                 <p>Includes Action Plans & Templates</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Proforma Project Planner based on PBL</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>PBL Project Design & Overview 2</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>PBL Overview Incubator Projects XP</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>

@@ -33,26 +33,31 @@ export default function PBLUnitPage3(){
                         <div className="related-resources">
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Powerpoint: Intro to the Driving Question</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Using Open & Guiding Questions</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>PBL Overview Effective Questioning</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon-not"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Proforma Planning Frame</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
                             <div className="resource-item">
                                 <div className="fav-icon"></div>
+                                <div className="resource-thumbnail-placeholder"></div>
                                 <h4>Proforma Rubric to Plan Guiding Questions</h4>
                                 <p>A short introduction about the resource or toolkit</p>
                             </div>
