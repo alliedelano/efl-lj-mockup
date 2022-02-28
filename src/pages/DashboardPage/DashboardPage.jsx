@@ -24,44 +24,54 @@ export default function DashboardPage(){
                     <div className="my-courses">
                         <h2>My courses</h2>
                         <div className="course">
-                            <a href="/courses/pblcourse"><h4>Steps in Project Based Learning</h4></a>
-                            <p>A series of overviews of the different elements of Project Based Learning and Expeditionary Learning.</p>
+                            <div className="course-box-left">
+                                <div className="completion-icon"></div>
+                            </div>
+                            <div className="course-box-right">
+                                <a href="/courses/pblcourse"><h4>Project Based Learning 201</h4></a>
+                                <p>Complete</p>
+                            </div>
                         </div>
-                        <div className="course">
-                            <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
-                            <p>A short introduction about the course.</p>
-                        </div>
-                        <div className="course">
-                            <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
-                            <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
-                        </div>
-                        <a href="/courses"><p>View more courses</p></a>
+                        
+                        <a href="/courses"><p>View all courses</p></a>
                     </div>
                     <div className="up-next">
-                        <h3>Up next in my journey</h3>
-                        <p>Based on what you've completed so far, we recommend checking out:</p>
-                        <div className="resources">
-                            <div className="featured-resource">
-                                <h4>Featured Resource/toolkit name</h4>
-                                <p>A short introduction about the resource or toolkit</p>
+                        <h2>My favourite toolkits</h2>
+                        <div className="my-courses">
+                            <div className="course">
+                                <div className="course-box-left">
+                                    <a href="/courses/pblcourse"><h4>Steps in Project Based Learning</h4></a>
+                                    <p>A series of overviews of the different elements of Project Based Learning and Expeditionary Learning.</p>
                                 </div>
-                            <div className="other-resources">
-                                <div className="other-resource">
-                                    <h4>Resource/toolkit name</h4>
-                                    <p>A short introduction about the resource or toolkit</p>
-                                </div>
-                                <hr />
-                                <div className="other-resource">
-                                    <h4>Resource/toolkit name</h4>
-                                    <p>A short introduction about the resource or toolkit</p>
+                                <div className="course-box-right"> 
+                                    <div className="fav-icon"></div>
                                 </div>
                             </div>
+                            <div className="course">
+                                <div className="course-box-left">
+                                    <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias similique, praesentium dicta laborum.</p>
+                                </div>
+                                <div className="course-box-right"> 
+                                    <div className="fav-icon"></div>
+                                </div>
+                            </div>
+                            <div className="course">
+                                <div className="course-box-left">
+                                    <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
+                                    <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
+                                </div>
+                                <div className="course-box-right"> 
+                                    <div className="fav-icon"></div>
+                                </div>
+                            </div>
+                            <a href="/toolkits"><p>View all toolkits</p></a>
                         </div>
                     </div>
                 </div>
                 <br />
                 <div>
-                    <h2>My favourites</h2>
+                    <h2>My favourite resources</h2>
                     <div className="favourites">
                         <div className="favourite">
                             <div className="fav-icon"></div>
@@ -93,7 +103,7 @@ export default function DashboardPage(){
                             <div className="resource-filter-tag">RWL</div>
                         </div>
                     </div>
-                    <a href="/resources"><p>View more resources</p></a>
+                    <a href="/resources"><p>View all resources</p></a>
                 </div>
             </div>
             <FooterComp />

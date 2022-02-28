@@ -9,7 +9,7 @@ export default function CoursesPage(){
             <Header />
             <div className="courses-header">
                 <div className="courses-header-left">
-                    <h1>Courses</h1>
+                    <h1>Live Courses</h1>
                     <input
                         type="text"
                         placeholder="Search resources"
@@ -19,17 +19,6 @@ export default function CoursesPage(){
                 <div className="courses-header-right">
                     <div className="course-filters">
                         <div className="filter-type">
-                            <h5>Filter by status</h5>
-                            <div className="course-filter-tag">favourite</div>
-                            <div className="course-filter-tag">started</div>
-                            <div className="course-filter-tag">completed</div>
-                        </div>
-                        <div className="filter-type">
-                            <h5>Filter by type</h5>
-                            <div className="course-filter-tag">independent</div>
-                            <div className="course-filter-tag">live</div>
-                        </div>
-                        <div className="filter-type">
                             <h5>Filter by ingredient</h5>
                             <div className="course-filter-tag">PBL</div>
                             <div className="course-filter-tag">CCL</div>
@@ -38,35 +27,44 @@ export default function CoursesPage(){
                     </div>
                 </div>
             </div>
-            <div className="all-courses">
-                        
-                        <div className="square-course">
-                            <a href="/courses/pblcourse"><h4>Steps in Project Based Learning</h4></a>
-                            <p>A series of overviews of the different elements of Project Based Learning and Expeditionary Learning.</p>
-                        </div>
-                        <div className="square-course">
-                            <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
-                            <p>10 strategies to support expeditionary learning.</p>
-                            <span className="question"><p>toolkit instead?</p></span>
-                        </div>
-                        <div className="square-course">
-                            <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
-                            <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
-                        </div>
-                        <div className="square-course">
-                            <a href="/courses/pbl201course"><h4>Creating a Project Using PBL and EL Pedagogies (Live Course)</h4></a>
-                            <p>Companion content for live course.</p>
-                            <span className="question"><p>password protected?</p></span>
-                        </div>
-                        <div className="square-course">
-                            <a href="/courses/ourtowncourse"><h4>Community Connected Learning For Social Impact</h4></a>
-                            <p>A short introduction about the course.</p>
-                        </div>
-                        <div className="square-course">
-                            <a href="/courses/anothercourse"><h4>Another Course Name</h4></a>
-                            <p>A short introduction about the course.</p>
+            <div className="all-courses">        
+                <div className="course">
+                    <div className="course-box-left">
+                        <div className="completion-icon"></div>
+                    </div>
+                    <div className="course-box-right">
+                        <a href="/courses/pblcourse"><h4>Project Based Learning 201</h4></a>
+                        <p>Complete</p>
+                        <div className="tags">
+                            <div className="course-filter-tag">tag</div>
                         </div>
                     </div>
+                </div>
+                <div className="course">
+                    <div className="course-box-left">
+                        <div className="completion-icon-not"></div>
+                    </div>
+                    <div className="course-box-right">
+                        <a href="/courses/pblcourse"><h4>Real World Learning 201</h4></a>
+                        <button>Book now</button>
+                        <div className="tags">
+                            <div className="course-filter-tag">tag</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="course">
+                    <div className="course-box-left">
+                        <div className="completion-icon-not"></div>
+                    </div>
+                    <div className="course-box-right">
+                        <a href="/courses/pblcourse"><h4>CCL 201</h4></a>
+                        <button>Book now</button>
+                        <div className="tags">
+                            <div className="course-filter-tag">tag</div>
+                        </div>
+                    </div>
+                </div>
+            </div>          
             <FooterComp />
         </>
     )

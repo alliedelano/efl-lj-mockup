@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
-    background-color: lightgrey
+    background-color: lightgrey;
+    padding-bottom: 15px;
 }
 
 .courses-header-left {
@@ -13,6 +14,12 @@
 
 .courses-header-right {
     width: 60vw;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .course-filter-tag {
@@ -28,7 +35,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .square-course {

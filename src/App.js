@@ -20,6 +20,7 @@ import PBL201Session1Page from './pages/PBL201Session1Page/PBL201Session1Page';
 import OurTownCoursePage from './pages/OurTownCoursePage/OurTownCoursePage';
 import OurTownUnit1Page from './pages/OurTownUnit1Page/OurTownUnit1Page';
 import OurTownUnit2Page from './pages/OurTownUnit2Page/OurTownUnit2Page';
+import ToolkitsPage from './pages/ToolkitsPage/ToolkitsPage';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/courses/ourtowncourse" element={<OurTownCoursePage/>} />
           <Route path="/courses/ourtowncourse/unit1" element={<OurTownUnit1Page/>} />
           <Route path="/courses/ourtowncourse/unit2" element={<OurTownUnit2Page/>} />
+          <Route path="/toolkits" element={<ToolkitsPage/>} />
 
         </Routes>
       </BrowserRouter>
