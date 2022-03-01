@@ -11,7 +11,7 @@ export default function ResourcesPage(){
             <Header />
             <div className="resources-header">
                 <div className="resources-header-left">
-                    <h1>Resources & Toolkits</h1>
+                    <h1>Resources</h1>
                     <input
                         type="text"
                         placeholder="Search resources"
