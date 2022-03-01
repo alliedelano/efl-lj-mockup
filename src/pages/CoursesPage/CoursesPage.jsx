@@ -33,8 +33,10 @@ export default function CoursesPage(){
                         <div className="completion-icon"></div>
                     </div>
                     <div className="course-box-right">
-                        <a href="/courses/pblcourse"><h4>Project Based Learning 201</h4></a>
-                        <p>Complete</p>
+                        <a href="/courses/pbl201course"><h4>Project Based Learning 201</h4></a>
+                        <p>A short introduction about the course</p>
+                        <p className="complete-text">You've completed this course</p>
+                        <a href="/courses/pbl201course"><button className="complete">View Materials</button></a>
                         <div className="tags">
                             <div className="course-filter-tag">tag</div>
                         </div>
@@ -45,7 +47,8 @@ export default function CoursesPage(){
                         <div className="completion-icon-not"></div>
                     </div>
                     <div className="course-box-right">
-                        <a href="/courses/pblcourse"><h4>Real World Learning 201</h4></a>
+                        <h4>Real World Learning 201</h4>
+                        <p>A short introduction about the course</p>
                         <button>Book now</button>
                         <div className="tags">
                             <div className="course-filter-tag">tag</div>
@@ -57,7 +60,8 @@ export default function CoursesPage(){
                         <div className="completion-icon-not"></div>
                     </div>
                     <div className="course-box-right">
-                        <a href="/courses/pblcourse"><h4>CCL 201</h4></a>
+                        <h4>CCL 201</h4>
+                        <p>A short introduction about the course</p>
                         <button>Book now</button>
                         <div className="tags">
                             <div className="course-filter-tag">tag</div>

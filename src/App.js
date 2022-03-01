@@ -21,6 +21,7 @@ import OurTownCoursePage from './pages/OurTownCoursePage/OurTownCoursePage';
 import OurTownUnit1Page from './pages/OurTownUnit1Page/OurTownUnit1Page';
 import OurTownUnit2Page from './pages/OurTownUnit2Page/OurTownUnit2Page';
 import ToolkitsPage from './pages/ToolkitsPage/ToolkitsPage';
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   return (
@@ -48,7 +49,7 @@ function App() {
           <Route path="/courses/ourtowncourse/unit1" element={<OurTownUnit1Page/>} />
           <Route path="/courses/ourtowncourse/unit2" element={<OurTownUnit2Page/>} />
           <Route path="/toolkits" element={<ToolkitsPage/>} />
-
+          <Route path="/home" element={<HomePage/>} />
         </Routes>
       </BrowserRouter>
     </div>

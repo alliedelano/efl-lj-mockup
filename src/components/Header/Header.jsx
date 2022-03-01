@@ -19,6 +19,7 @@ export default function Header(){
 
             </div>
             <div className="navigation">
+                <a href="/home"><h4>LJ Home?</h4></a>
                 <a href="/"><h4>My Dashboard</h4></a>
                 <a href="/courses"><h4>Live Courses</h4></a>
                 <a href="/toolkits"><h4>Self-Guided Toolkits</h4></a>

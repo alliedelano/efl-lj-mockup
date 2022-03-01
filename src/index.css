@@ -21,3 +21,12 @@ h4 {
 h2 {
   color: #BF2885;
 }
+
+button {
+  background-color: #BF2885;
+  font-size: medium;
+  border: 1px solid #BF2885;
+  color: white;
+  width: auto;
+  margin-left: 5px;
+}

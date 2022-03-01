@@ -20,6 +20,25 @@ export default function DashboardPage(){
                         <div>Nottingham, England</div>
                     </div>
                 </div>
+                <div className="courses-header">
+                    <div className="courses-header-left">
+                        <input
+                            type="text"
+                            placeholder="Search my favourites"
+                        />
+                        <button>Search</button>
+                    </div>
+                    <div className="courses-header-right">
+                        <div className="course-filters">
+                            <div className="filter-type">
+                                <h5>Filter by ingredient</h5>
+                                <div className="course-filter-tag">PBL</div>
+                                <div className="course-filter-tag">CCL</div>
+                                <div className="course-filter-tag">RWL</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="courses-up-next">
                     <div className="my-courses">
                         <h2>My courses</h2>
@@ -28,11 +47,41 @@ export default function DashboardPage(){
                                 <div className="completion-icon"></div>
                             </div>
                             <div className="course-box-right">
-                                <a href="/courses/pblcourse"><h4>Project Based Learning 201</h4></a>
-                                <p>Complete</p>
+                                <a href="/courses/pbl201course"><h4>Project Based Learning 201</h4></a>
+                                <p>A short introduction about the course</p>
+                                <p className="complete-text">You've completed this course</p>
+                                <a href="/courses/pbl201course"><button className="complete">View Materials</button></a>
+                                <div className="tags">
+                                    <div className="course-filter-tag">tag</div>
+                                </div>
+                            </div>
+                            </div>
+                            <div className="course">
+                                <div className="course-box-left">
+                                    <div className="completion-icon-not"></div>
+                                </div>
+                                <div className="course-box-right">
+                                    <h4>Real World Learning 201</h4>
+                                    <p>A short introduction about the course</p>
+                                    <button>Book now</button>
+                                    <div className="tags">
+                                        <div className="course-filter-tag">tag</div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div className="course">
+                            <div className="course-box-left">
+                                <div className="completion-icon-not"></div>
+                            </div>
+                            <div className="course-box-right">
+                                <h4>CCL 201</h4>
+                                <p>A short introduction about the course</p>
+                                <button>Book now</button>
+                                <div className="tags">
+                                    <div className="course-filter-tag">tag</div>
+                                </div>
                             </div>
                         </div>
-                        
                         <a href="/courses"><p>View all courses</p></a>
                     </div>
                     <div className="up-next">
@@ -42,6 +91,11 @@ export default function DashboardPage(){
                                 <div className="course-box-left">
                                     <a href="/courses/pblcourse"><h4>Steps in Project Based Learning</h4></a>
                                     <p>A series of overviews of the different elements of Project Based Learning and Expeditionary Learning.</p>
+                                    <div className="tags">
+                                        <div className="course-filter-tag">tag</div>
+                                        <div className="course-filter-tag">tag</div>
+                                        <div className="course-filter-tag">tag</div>
+                                    </div>
                                 </div>
                                 <div className="course-box-right"> 
                                     <div className="fav-icon"></div>
@@ -51,6 +105,11 @@ export default function DashboardPage(){
                                 <div className="course-box-left">
                                     <a href="/courses/xpprotocolscourse"><h4>XP: Expeditionary Learning Protocols</h4></a>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias similique, praesentium dicta laborum.</p>
+                                    <div className="tags">
+                                        <div className="course-filter-tag">tag</div>
+                                        <div className="course-filter-tag">tag</div>
+                                        <div className="course-filter-tag">tag</div>
+                                    </div>
                                 </div>
                                 <div className="course-box-right"> 
                                     <div className="fav-icon"></div>
@@ -60,6 +119,11 @@ export default function DashboardPage(){
                                 <div className="course-box-left">
                                     <a href="/courses/partnershipscourse"><h4>Powerful Partnerships</h4></a>
                                     <p>The Ford NGL process for building deep, sustainable relationships to support your school/college outreach/employer engagement/careers programme.</p>
+                                    <div className="tags">
+                                        <div className="course-filter-tag">tag</div>
+                                        <div className="course-filter-tag">tag</div>
+                                        <div className="course-filter-tag">tag</div>
+                                    </div>
                                 </div>
                                 <div className="course-box-right"> 
                                     <div className="fav-icon"></div>
