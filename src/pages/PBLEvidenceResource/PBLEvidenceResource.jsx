@@ -10,7 +10,7 @@ export default function PBLEvidenceResource(){
             <Header />
             <div>
                 <h1>Our Evidence Base</h1>
-                <h4>Short intro about the resource or toolkit</h4>
+                <h4>Short intro about the resource</h4>
                 <p>Authored by: NAME</p>
             </div>
             <div className="resource-content">
