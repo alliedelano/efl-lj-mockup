@@ -22,6 +22,9 @@ import OurTownUnit1Page from './pages/OurTownUnit1Page/OurTownUnit1Page';
 import OurTownUnit2Page from './pages/OurTownUnit2Page/OurTownUnit2Page';
 import ToolkitsPage from './pages/ToolkitsPage/ToolkitsPage';
 import HomePage from './pages/HomePage/HomePage';
+import EFLTeamLiveCourses from './pages/EFLTeamLiveCourses/EFLTeamLiveCourses';
+import EFLTeamSGT from './pages/EFLTeamSGT/EFLTeamSGT';
+import Tickets from './pages/Tickets/Tickets';
 
 function App() {
   return (
@@ -50,6 +53,9 @@ function App() {
           <Route path="/courses/ourtowncourse/unit2" element={<OurTownUnit2Page/>} />
           <Route path="/toolkits" element={<ToolkitsPage/>} />
           <Route path="/home" element={<HomePage/>} />
+          <Route path='/eflteamlivecourses' element={<EFLTeamLiveCourses/>} />
+          <Route path='/eflteamsgt' element={<EFLTeamSGT/>} />
+          <Route path='/eflteamtickets' element={<Tickets/>} />
         </Routes>
       </BrowserRouter>
     </div>
